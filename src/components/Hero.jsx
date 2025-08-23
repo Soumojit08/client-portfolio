@@ -1,6 +1,6 @@
 import React from "react";
 import { profileData } from "../constants/portfolioData";
-import demo from "../assets/demo.jpg";
+import me from "../assets/me.jpg";
 import Stats from "./stats"; // Import the Stats component
 
 const Hero = () => {
@@ -31,15 +31,15 @@ const Hero = () => {
         <div className="w-full md:w-1/2 flex items-center justify-center mt-8 md:mt-0">
           <div className="relative w-3/4 h-64 md:h-3/4 rounded-lg overflow-hidden shadow-lg group">
             <img
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-              src={demo}
+              className="h-1/2 w-fit object-contain transition-transform duration-500 group-hover:scale-110"
+              src={me}
               alt="img"
             />
             {/* Overlay */}
             <div className="absolute inset-0 bg-blue-950/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10">
               <div className="text-center text-white px-4">
                 <h2 className="text-xl md:text-2xl font-bold mb-2">
-                  Dr. Nitai Chandra Adak
+                  Soumojit Banerjee
                 </h2>
                 <p className="text-sm md:text-base text-gray-300">
                   {profileData.currentPosition}
