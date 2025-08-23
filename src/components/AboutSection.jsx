@@ -129,11 +129,6 @@ const AboutSection = () => {
                     label: "Education",
                   },
                   {
-                    icon: <Calendar className="w-6 h-6" />,
-                    text: profileData.workHistory[0].period,
-                    label: "Experience",
-                  },
-                  {
                     icon: <FileText className="w-6 h-6" />,
                     text: "50+ Published Papers",
                     label: "Publications",
